@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Mobile Tetris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="game-board"></div>
+        <div id="info-panel">
+            <h2>Score: <span id="score">0</span></h2>
+            <div id="next-piece">Next:</div>
+            <button id="start-button">Start Game</button>
+        </div>
+    </div>
+
+    <div id="controls">
+        <button id="rotate-btn" class="control-btn">🔄</button>
+        <div class="horizontal-controls">
+            <button id="left-btn" class="control-btn">◀</button>
+            <button id="right-btn" class="control-btn">▶</button>
+        </div>
+        <button id="down-btn" class="control-btn">⬇</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
